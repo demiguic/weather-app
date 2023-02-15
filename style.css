@@ -147,9 +147,9 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 50px;
-    scale: 0;
-    opacity: 0;
-    display: none;
+    scale: 1;
+    opacity: 1;
+    display: block;
 }
 
 .not-found img {
@@ -169,7 +169,7 @@ body {
 
 }
 
-.fade-in {
+.fadeIn {
     animation: 0.5s fadeIn forwards;
     animation-delay: 0.5s;
 }
